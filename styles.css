@@ -1,0 +1,48 @@
+/* Header chung */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 15px 0;
+}
+
+/* Các nút trong header */
+.header a {
+    display: inline-block;
+    margin: 0 10px; /* Khoảng cách giữa các nút */
+    padding: 10px 20px; /* Kích thước nút */
+    color: white; /* Màu chữ */
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #007BFF; /* Màu xanh nước biển */
+    border-radius: 5px; /* Bo tròn góc */
+    transition: all 0.3s ease; /* Hiệu ứng hover */
+}
+
+/* Hiệu ứng khi hover */
+.header a:hover {
+    background-color: #0056b3; /* Màu xanh đậm */
+    transform: translateY(-3px); /* Nhẹ nhàng di chuyển lên khi hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+}
+
+
+
+
+
+
+
+
+/* Logo trong header */
+.logo {
+    flex: 1; /* Cho logo chiếm không gian flex */
+    display: flex;
+    justify-content: flex-start; /* Căn logo về bên trái */
+}
+
+.logo-image {
+    max-width: 150px; /* Điều chỉnh kích thước logo */
+    height: auto;
+    margin-right: 20px; /* Khoảng cách giữa logo và các phần tử khác */
+}
